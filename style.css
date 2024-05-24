@@ -1,0 +1,75 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:peru;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+/*Damos estilos a nuestras clases*/
+
+.card-container{
+display: flex;
+justify-content: center;
+max-width: 1200px;
+padding: 24px;
+gap: 24px;
+}
+
+.card{
+    padding: 12px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 30%;
+    background-color: whitesmoke;
+}
+
+.pokemon-image{
+ width: 100px;
+ height: 100px;
+ border-radius: 50%;
+}
+
+.pokemon-info{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.pokemon-name{
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.pokemon-type{
+    font-style: italic;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.pokemon-description{
+    margin-top: 12px;
+}
+
+.pokemon-powers{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.pokemon-attack{
+    border-radius: 8px;
+    padding: 4px;
+    font-size: 12px;
+    background-color: green;
+}
+
+
