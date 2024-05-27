@@ -13,11 +13,18 @@ ul{
     list-style: none;
 }
 
+header{
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+}
+
 /*Damos estilos a nuestras clases*/
 
 .card-container{
 margin: 0 auto;
 display: flex;
+flex-wrap: wrap;
 justify-content: center;
 max-width: 1200px;
 padding: 24px;
